@@ -9,7 +9,7 @@ Name:       kcmutils
 # << macros
 
 Summary:    KDE Frameworks 5 Tier 3 addon for interacting with KCModules
-Version:    5.2.0
+Version:    5.3.0
 Release:    1
 Group:      System/Base
 License:    GPLv2+
