@@ -7,7 +7,6 @@ Summary      : KDE Frameworks 5 Tier 3 addon for interacting with KCModules
 Description  : |
   KDE Frameworks 5 Tier 3 addon for interacting with KCModules
 URL          : http://www.kde.org
-SetupOptions : -q -n %{name}-%{version}/upstream
 
 Sources:
     - "%{name}-%{version}.tar.xz"
