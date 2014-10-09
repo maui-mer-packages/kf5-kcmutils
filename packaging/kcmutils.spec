@@ -85,7 +85,9 @@ rm -rf %{buildroot}
 # >> install post
 # << install post
 
-%files
+%find_lang kcmutils5_qt --with-qt --all-name || :
+
+%files -f kcmutils5_qt.lang
 %defattr(-,root,root,-)
 %doc COPYING.LIB README.md
 %{_kf5_libdir}/libKF5KCMUtils.so.*
